@@ -1,0 +1,6 @@
+openpose_node:
+  ros__parameters:
+    is_debug_mode: false
+    openpose_root: "/openpose"
+    is_image_compressed: true
+    image_node: "/rs/color/compressed"
