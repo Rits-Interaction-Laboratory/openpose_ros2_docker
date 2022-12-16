@@ -73,7 +73,7 @@ ENV LD_LIBRARY_PATH=/openpose/build/python/openpose
 
 # setup openpose_ros2
 RUN mkdir -p /ros2_ws/src
-COPY ./openpose_ros2 /ros2_ws/src/
+COPY openpose_ros2/ /ros2_ws/src/openpose_ros2
 COPY settings/shigure/params.yml /params.yml
 COPY settings/shigure/run.bash /run.bash
 COPY settings/shigure/launch.bash /launch.bash
