@@ -1,8 +1,8 @@
 # Openpose ROS2 Docker
 
-[en](./README.md) / ja
-
 ![openpose_ros2_docker](https://img.shields.io/badge/openpose_ros2-docker-blue)
+
+[en](./README.md) / ja
 
 これはDockerコンテナ内でopenpose_ros2を実行するための環境を提供するリポジトリです。
 

@@ -1,8 +1,8 @@
 # Openpose ROS2 Docker
 
-en / [ja](./README_ja.md)
-
 ![openpose_ros2_docker](https://img.shields.io/badge/openpose_ros2-docker-blue)
+
+en / [ja](./README_ja.md)
 
 This repository provides an environment for running openpose_ros2 in a Docker container.
 
