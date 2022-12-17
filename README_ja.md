@@ -7,8 +7,10 @@
 これはDockerコンテナ内でopenpose_ros2を実行するための環境を提供するリポジトリです。
 
 このリポジトリが依存するパッケージは以下の通りです :
- - [Rits-Interaction-Laboratory/openpose_ros2](https://github.com/Rits-Interaction-Laboratory/openpose_ros2)
-
+- [Rits-Interaction-Laboratory/openpose](https://github.com/Rits-Interaction-Laboratory/openpose)
+  - forked from [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) 
+- [Rits-Interaction-Laboratory/openpose_ros2](https://github.com/Rits-Interaction-Laboratory/openpose_ros2)
+- [Rits-Interaction-Laboratory/shigure_tools](https://github.com/Rits-Interaction-Laboratory/shigure_tools)
 
 ## 動作要件
 
