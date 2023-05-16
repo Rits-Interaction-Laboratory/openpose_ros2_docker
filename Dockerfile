@@ -58,7 +58,7 @@ RUN git clone -b feature/shigure_openpose https://github.com/Rits-Interaction-La
 
 #build it
 WORKDIR /openpose/build
-RUN cmake -DBUILD_PYTHON=ON .. && make -j `nproc`
+RUN cmake -DBUILD_PYTHON=ON -DUSE_CUDNN=OFF .. && make -j `nproc`
 WORKDIR /openpose
 
 RUN cd /openpose/build/python/openpose && \
